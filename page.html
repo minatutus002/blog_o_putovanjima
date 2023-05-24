@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dnevnik putovanja</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Biblioteka fontova-->>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Izabrani fontovi -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- osnove dizajna -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+      
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "page.html" class = "site-brand">
+                    Dnevnik<span>Putovanja</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "page.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "page1.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "page3.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "page4.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "page2.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+
+    
+    <header class = "flex">
+        <div class = "container">
+            <div class = "header-title">
+                <h1>Upoznajte se sa najlepšim delovima Evrope</h1>
+                <p>Kroz mali dnevnik mojih putovanja, želim vam otvoriti vrata ovih najegzotičnijih destinacija, koje su na mene ostavile najveći utisak.
+                    Pokazaću vam čari ovih mesta i kakvu tajnu skrivaju njihove građevine, koje godinama glamurozno krase ove gradove. Uživajte!
+                </p>
+            </div>
+        </div>
+    </header>
+    
+
+    
+    <section id = "featured" class = "py-4">
+        <div class = "container">
+           
+
+            <div class = "featured-row">
+                <div class = "featured-item my-2 shadow">
+                    <img src = "images/slika.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Paris, France
+                        </span>
+                        <div>
+                            <p class = "text">Pariz je glavni grad Francuske s bogatom kulturom i ikoničnim 
+                                            <br>znamenitostima poput Eiffelovog tornja i Louvrea.
+                                            <br> Pariz je vrhunski turistički odredište poznato po modi, umetnosti i 
+                                            <br>gastronomiji.
+                                            Šetnja pariškim ulicama i uživanje u romantičnoj atmosferi čine Pariz jedinstvenim iskustvom</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow">
+                    <img src = "images/slika6.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Amsterdam, Netherlands
+                        </span>
+                        <div>
+                            <p class = "text">Amsterdam je slikovit grad s kanalima, poznat po muzejima i biciklima.
+                                U Amsterdamu se može doživjeti liberalna kultura, četvrt Crvenih svjetiljki i karakteristične kuće uz kanale.
+                                Ovaj šarmantni grad nudi prekrasne parkove, živahne tržnice i bogatu povijest Zlatnog doba.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow">
+                    <img src = "images/slika11.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Nice, France
+                        </span>
+                        <div>
+                            <p class = "text">Nice je slikoviti grad na francuskoj rivijeri s prekrasnim plažama i mediteranskom klimom.
+                                Stari grad, Vieux Nice, oduševljava uskim ulicama i šarmantnim trgovima.
+                                Nice nudi bogatu gastronomsku scenu i raznolike kulturne događaje.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow">
+                    <img src = "images/slika16.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            London, England
+                        </span>
+                        <div>
+                            <p class = "text">London je svetska metropola s bogatom istorijom i  znamenitostima poput 
+                                <br>Tower Bridgea i Buckinghamske palate.
+                                Grad nudi raznoliku kulturnu scenu s muzejima, pozorištem na West Endu i prekrasnim parkovima poput
+                                <br> Hyde Parka.
+                                London je kulinarski raj s raznolikom ponudom restorana i 
+                                <br>tržnica, te je takođe poznat po šopingu i modnoj sceni.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow">
+                    <img src = "images/slika21.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Santorini, Greece
+                        </span>
+                        <div>
+                            <p class = "text">Santorini je predivno grčko ostrvo poznato po svojim belim kućama sa plavim kupolama, koje se uzdižu iznad tirkiznih voda Egejskog mora.
+                                Ostrvo oduševljava posetioce svojim spektakularnim zalascima sunca, koje se mogu posmatrati sa slikovitih klifova i terasa restorana.
+                                <br>Santorini je takođe poznat po svojim vulkanskim plažama, poput crne plaže Perissa i crvene plaže Red Beach, 
+                                <br>koje pružaju jedinstveno iskustvo odmora na ostrvu</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "featured-item my-2 shadow">
+                    <img src = "images/slika26.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Venice, Italy
+                        </span>
+                        <div>
+                            <p class = "text">Venecija, romantični grad na vodi u Italiji, očarava posetioce svojim kanalima, gondolama i prelepom arhitekturom, poput Bazilike <br>sv. Marka i Duždeve palate.
+                                Piazza San Marco, centralni trg u Veneciji, <br>privlači pažnju sa svojim prelepim trgom, kafićima i impozantnim zvonikom.
+                                Ova jedinstvena destinacija nudi nezaboravne vožnje gondolom kroz uske kanale, kao i šetnje preko prepoznatljivih venecijanskih mostova, stvarajući atmosferu iz bajke</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+ 
+  
+    
+  
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video autoplay muted loop>
+                <source src="videos/video1.mp4" type="video/mp4">
+            </video>
+            <div id="play-overlay" class="overlay">
+                <i class="fas fa-play"></i>
+            </div>
+        </div>
+    </section>
+    
+ 
+    <footer class = "py-4">
+        <div class = "container footer-row">
+            <div class = "footer-item">
+                <a href = "page.html" class = "site-brand">
+                   Dnevnik<span>Putovanja</span>
+                </a>
+            </div>
+
+            <div class = "footer-item">
+                <h2>Follow us on: </h2>
+                <ul class = "social-links">
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+           
+            <div class = "subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class = "flex">
+                    <input type = "email" placeholder="Enter Email" class = "form-control">
+                    <input id = "dugme1" type = "button" class = "btn" value = "Subscribe" onclick="displayMessage()" >
+                </form>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="js/script.js"></script>
+
+   
+    
+
+    
+    
+            </div>
+        </nav>
+    </body>
+</html>
